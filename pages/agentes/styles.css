@@ -79,6 +79,7 @@ section {
 }
 .agente-card img {
     width: 80px;
+    border-radius: 50%;
 }
 .agente-card span {
     font-size: 30px;
