@@ -4,9 +4,73 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#header-home{
-  background-image: url("https://cdn.wallpapersafari.com/10/81/p8LziN.jpg");
+#header-home {
+  background-image: url("https://shopinfo.vteximg.com.br/arquivos/descricao-especial-pc-gamer-valorant-background-primeiro-texto-mobile.png?v=637225551680200000");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 80vh;
+  min-height: 600px;
+  background-color: #3d0606;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@keyframes imagem {
+  from {
+    width: 350px;
+    height: 350px;
+  }
+  to {
+    width: 400px;
+    height: 400px;
+  }
+}
+#header-home img {
+  width: 400px;
+  height: 400px;
+  animation-name: imagem;
+  animation-duration: 4s;
+}
+
+#cards-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem;
+  background: #e7e7e7;
+}
+@keyframes animacaobtn {
+  from {
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    padding: 1.5rem;
+  }
+  to {
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+}
+#cards-home .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e8e8e8;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px #6868685d;
+}
+#cards-home .card:hover {
+  background-color: #d8d8d8;
+  border-radius: 10px;
+  padding: 2rem;
+  animation: animacaobtn;
+  animation-duration: 0.5s;
+}
+#cards-home .card img {
+  width: 150px;
 }
