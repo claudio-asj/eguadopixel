@@ -1,0 +1,77 @@
+header {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 20vh;
+    min-height: 150px;
+
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+header img {
+    width: 200px;
+
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 2rem 8rem;
+}
+
+#classe {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#classe span {
+    font-size: 2rem;
+}
+
+#classe img {
+    width: 2rem;
+    height: 2rem;
+}
+
+@keyframes paraolado {
+    from {
+        margin-left: 2rem;
+    }
+
+    to {
+        margin-left: 0;
+    }
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: paraolado;
+    animation-duration: 2s;
+    gap: 2rem;
+}
+
+#sobre h3 {
+    color: blueviolet;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#sobre p {
+    max-width: 400px;
+    text-align: justify;
+}
+
+#sobre img {
+    width: 100px;
+}
